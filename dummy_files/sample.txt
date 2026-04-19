@@ -1,0 +1,14 @@
+Hello from sample.txt!
+This is a dummy text file for testing your Python file reader.
+
+The file reader can list files, read files, write text files, and search inside file content.
+An LLM can ask the tool to find keywords without caring whether the keyword is uppercase or lowercase.
+
+Search testing notes:
+Python appears here once.
+PYTHON appears here again in uppercase.
+The word reader appears near the beginning, in the middle, and near the end of this sample reader file.
+
+Context checks are easier when a keyword has surrounding words on both sides.
+For example, searching for project should return text around this project sentence.
+This final line mentions llm, LLM, and file reader together.
